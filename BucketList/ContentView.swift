@@ -28,7 +28,7 @@ struct ContentView: View {
                     }
                 }
             }
-                .ignoresSafeArea()
+            .ignoresSafeArea()
             Circle()
                 .fill(.blue)
                 .opacity(0.3)
