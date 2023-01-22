@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD248576297CD7EC009B607A /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD248575297CD7EC009B607A /* ContentView-ViewModel.swift */; };
+		FD248578297CE139009B607A /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD248577297CE139009B607A /* FileManager-DocumentsDirectory.swift */; };
 		FD25A975297B7FC20050795C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25A974297B7FC20050795C /* Result.swift */; };
 		FDC076AE2978DB2800D76B66 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC076AD2978DB2800D76B66 /* BucketListApp.swift */; };
 		FDC076B02978DB2800D76B66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC076AF2978DB2800D76B66 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD248575297CD7EC009B607A /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		FD248577297CE139009B607A /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		FD25A974297B7FC20050795C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		FDC076AA2978DB2800D76B66 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC076AD2978DB2800D76B66 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			children = (
 				FDC076AD2978DB2800D76B66 /* BucketListApp.swift */,
 				FDC076AF2978DB2800D76B66 /* ContentView.swift */,
+				FD248577297CE139009B607A /* FileManager-DocumentsDirectory.swift */,
+				FD248575297CD7EC009B607A /* ContentView-ViewModel.swift */,
 				FDC076BB2978E24400D76B66 /* Location.swift */,
 				FDC076BD2978EBE900D76B66 /* EditView.swift */,
 				FDC076B12978DB3000D76B66 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC076B02978DB2800D76B66 /* ContentView.swift in Sources */,
+				FD248578297CE139009B607A /* FileManager-DocumentsDirectory.swift in Sources */,
+				FD248576297CD7EC009B607A /* ContentView-ViewModel.swift in Sources */,
 				FD25A975297B7FC20050795C /* Result.swift in Sources */,
 				FDC076BC2978E24400D76B66 /* Location.swift in Sources */,
 				FDC076BE2978EBE900D76B66 /* EditView.swift in Sources */,
